@@ -4,22 +4,22 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
-  reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
   paknsave,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  java,
+  sql,
+  python,
+  linux,
+  cplusplus,
+  csharp,
+  rstudio,
+  tictactoe,
+  snakegame,
 } from "../assets";
 
 export const navLinks = [
@@ -58,6 +58,38 @@ const services = [
 
 const technologies = [
   {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Linux",
+    icon: linux,
+  },
+  {
+    name: "C++",
+    icon: cplusplus,
+  },
+  {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: "Rstudio",
+    icon: rstudio,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -70,18 +102,6 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -90,24 +110,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -156,67 +160,46 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Tic Tac Toe",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Java based Tic Tac Toe project with a Java GUI that can restart the game once the previous one has ended. Built with IntelliJ and with OOP principles.",
     tags: [
       {
-        name: "react",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Java GUI",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "IntelliJ",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: tictactoe,
+    source_code_link: "https://github.com/BryanCrom/TicTacToe",
   },
   {
-    name: "Job IT",
+    name: "Snake Game",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Java project of an abstract version of the snake game i made for my data structures course so it displays use of data structures and Java GUI. Made in NetBeans",
     tags: [
       {
-        name: "react",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Java GUI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "NetBeans",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: snakegame,
+    source_code_link: "https://github.com/BryanCrom/Snake_Game",
   },
 ];
 
