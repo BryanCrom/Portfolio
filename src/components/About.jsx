@@ -44,9 +44,10 @@ const About = () => {
         worked with many languages like Java, Python, SQL, C++, C#, HTML, CSS,
         and JavaScript the one i am most skilled at is Java. I am skilled at
         Git. I also have worked with different frameworks such as express.js,
-        Next.js, and TailWindCSS. I have some experience in the MERN stack and
-        have used platforms like Rstudio, Gadot, and Unity. I am a quick learner
-        and enjoy deciphering new languages and plaforms.
+        Next.js, and TailWindCSS.I have expeirence in agile development and I
+        have some experience in the MERN stack and have used platforms like
+        Rstudio, Gadot, and Unity. I am a quick learner and enjoy deciphering
+        new languages and plaforms.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
