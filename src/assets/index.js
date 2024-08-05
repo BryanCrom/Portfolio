@@ -26,6 +26,7 @@ import paknsave from "./company/paknsave.png";
 
 import tictactoe from "./TicTacToe.png";
 import snakegame from "./SnakeGame.png";
+import pizzastore from "./PizzaStore.png";
 
 export {
   logo,
@@ -53,4 +54,5 @@ export {
   cplusplus,
   csharp,
   rstudio,
+  pizzastore,
 };

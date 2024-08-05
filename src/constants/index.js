@@ -19,6 +19,7 @@ import {
   rstudio,
   tictactoe,
   snakegame,
+  pizzastore,
 } from "../assets";
 
 export const navLinks = [
@@ -170,6 +171,27 @@ const projects = [
     ],
     image: snakegame,
     source_code_link: "https://github.com/BryanCrom/Snake_Game",
+  },
+  {
+    name: "Pizza Store",
+    description:
+      "Python project that uses multiple python files in tandam. Reads and writes to text files for data manipulation. Simulates a pizza ording system equipt with input validation",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CLI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "validation",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pizzastore,
+    source_code_link: "https://github.com/BryanCrom/PizzaStore",
   },
 ];
 
